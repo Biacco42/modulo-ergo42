@@ -60,23 +60,23 @@ $EndComp
 $Comp
 L Connector:AudioJack4_Ground J1
 U 1 1 5BC2FF07
-P 1350 2200
-F 0 "J1" H 1316 2542 50  0000 C CNN
-F 1 "AudioJack4_Ground" H 1316 2451 50  0000 C CNN
-F 2 "library:TRRS_SMD_PJ320" H 1350 2200 50  0001 C CNN
-F 3 "~" H 1350 2200 50  0001 C CNN
-	1    1350 2200
+P 1000 2200
+F 0 "J1" H 966 2542 50  0000 C CNN
+F 1 "AudioJack4_Ground" H 966 2451 50  0000 C CNN
+F 2 "library:TRRS_SMD_PJ320" H 1000 2200 50  0001 C CNN
+F 3 "~" H 1000 2200 50  0001 C CNN
+	1    1000 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:AudioJack4_Ground J2
 U 1 1 5BC30075
-P 2600 2200
-F 0 "J2" H 2566 2542 50  0000 C CNN
-F 1 "AudioJack4_Ground" H 2566 2451 50  0000 C CNN
-F 2 "library:TRRS_SMD_PJ320" H 2600 2200 50  0001 C CNN
-F 3 "~" H 2600 2200 50  0001 C CNN
-	1    2600 2200
+P 2000 2200
+F 0 "J2" H 1966 2542 50  0000 C CNN
+F 1 "AudioJack4_Ground" H 1966 2451 50  0000 C CNN
+F 2 "library:TRRS_SMD_PJ320" H 2000 2200 50  0001 C CNN
+F 3 "~" H 2000 2200 50  0001 C CNN
+	1    2000 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -101,39 +101,39 @@ F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 2050 7400 50  0001 C CNN
 	1    2550 6500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1550 2400 2    50   Input ~ 0
+Text GLabel 1200 2400 2    50   Input ~ 0
 3V3
-Text GLabel 2800 2400 2    50   Input ~ 0
+Text GLabel 2200 2400 2    50   Input ~ 0
 3V3
 $Comp
 L power:GND #PWR02
 U 1 1 5BC31239
-P 1550 2100
-F 0 "#PWR02" H 1550 1850 50  0001 C CNN
-F 1 "GND" V 1555 1972 50  0000 R CNN
-F 2 "" H 1550 2100 50  0001 C CNN
-F 3 "" H 1550 2100 50  0001 C CNN
-	1    1550 2100
+P 1200 2100
+F 0 "#PWR02" H 1200 1850 50  0001 C CNN
+F 1 "GND" V 1205 1972 50  0000 R CNN
+F 2 "" H 1200 2100 50  0001 C CNN
+F 3 "" H 1200 2100 50  0001 C CNN
+	1    1200 2100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5BC31273
-P 2800 2100
-F 0 "#PWR05" H 2800 1850 50  0001 C CNN
-F 1 "GND" V 2805 1972 50  0000 R CNN
-F 2 "" H 2800 2100 50  0001 C CNN
-F 3 "" H 2800 2100 50  0001 C CNN
-	1    2800 2100
+P 2200 2100
+F 0 "#PWR05" H 2200 1850 50  0001 C CNN
+F 1 "GND" V 2205 1972 50  0000 R CNN
+F 2 "" H 2200 2100 50  0001 C CNN
+F 3 "" H 2200 2100 50  0001 C CNN
+	1    2200 2100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1550 2200 2    50   Input ~ 0
+Text GLabel 1200 2200 2    50   Input ~ 0
 SCL1
-Text GLabel 1550 2300 2    50   Input ~ 0
+Text GLabel 1200 2300 2    50   Input ~ 0
 SDA1
-Text GLabel 2800 2200 2    50   Input ~ 0
+Text GLabel 2200 2200 2    50   Input ~ 0
 SCL2
-Text GLabel 2800 2300 2    50   Input ~ 0
+Text GLabel 2200 2300 2    50   Input ~ 0
 SDA2
 $Comp
 L power:GND #PWR08
@@ -164,30 +164,30 @@ Text GLabel 1450 6500 0    50   Input ~ 0
 $Comp
 L Connector:AudioJack4_Ground J3
 U 1 1 5BC32F04
-P 3850 2200
-F 0 "J3" H 3816 2542 50  0000 C CNN
-F 1 "AudioJack4_Ground" H 3816 2451 50  0000 C CNN
-F 2 "library:TRRS_SMD_PJ320" H 3850 2200 50  0001 C CNN
-F 3 "~" H 3850 2200 50  0001 C CNN
-	1    3850 2200
+P 3000 2200
+F 0 "J3" H 2966 2542 50  0000 C CNN
+F 1 "AudioJack4_Ground" H 2966 2451 50  0000 C CNN
+F 2 "library:TRRS_SMD_PJ320" H 3000 2200 50  0001 C CNN
+F 3 "~" H 3000 2200 50  0001 C CNN
+	1    3000 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5BC33189
-P 4050 2100
-F 0 "#PWR010" H 4050 1850 50  0001 C CNN
-F 1 "GND" V 4055 1972 50  0000 R CNN
-F 2 "" H 4050 2100 50  0001 C CNN
-F 3 "" H 4050 2100 50  0001 C CNN
-	1    4050 2100
+P 3200 2100
+F 0 "#PWR010" H 3200 1850 50  0001 C CNN
+F 1 "GND" V 3205 1972 50  0000 R CNN
+F 2 "" H 3200 2100 50  0001 C CNN
+F 3 "" H 3200 2100 50  0001 C CNN
+	1    3200 2100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4050 2400 2    50   Input ~ 0
+Text GLabel 3200 2400 2    50   Input ~ 0
 3V3
-Text GLabel 4050 2300 2    50   Input ~ 0
+Text GLabel 3200 2300 2    50   Input ~ 0
 INT
-NoConn ~ 4050 2200
+NoConn ~ 3200 2200
 Text GLabel 1950 4900 3    50   Input ~ 0
 INT
 Text GLabel 1950 7200 3    50   Input ~ 0
@@ -1089,5 +1089,32 @@ F 3 "~" H 2100 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2100 1050 3    50   Input ~ 0
+3V3
+$Comp
+L Connector:AudioJack4_Ground J4
+U 1 1 5BC43221
+P 4000 2200
+F 0 "J4" H 3966 2542 50  0000 C CNN
+F 1 "AudioJack4_Ground" H 3966 2451 50  0000 C CNN
+F 2 "library:TRRS_SMD_PJ320" H 4000 2200 50  0001 C CNN
+F 3 "~" H 4000 2200 50  0001 C CNN
+	1    4000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR042
+U 1 1 5BC4348C
+P 4200 2100
+F 0 "#PWR042" H 4200 1850 50  0001 C CNN
+F 1 "GND" V 4205 1972 50  0000 R CNN
+F 2 "" H 4200 2100 50  0001 C CNN
+F 3 "" H 4200 2100 50  0001 C CNN
+	1    4200 2100
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4200 2200
+Text GLabel 4200 2300 2    50   Input ~ 0
+INT
+Text GLabel 4200 2400 2    50   Input ~ 0
 3V3
 $EndSCHEMATC
