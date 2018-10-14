@@ -1,0 +1,164 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5BC2FE6A
+P 900 1050
+F 0 "#PWR?" H 900 800 50  0001 C CNN
+F 1 "GND" H 905 877 50  0000 C CNN
+F 2 "" H 900 1050 50  0001 C CNN
+F 3 "" H 900 1050 50  0001 C CNN
+	1    900  1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5BC2FE93
+P 900 1050
+F 0 "#FLG?" H 900 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 900 1224 50  0000 C CNN
+F 2 "" H 900 1050 50  0001 C CNN
+F 3 "~" H 900 1050 50  0001 C CNN
+	1    900  1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5BC2FEB5
+P 1350 1050
+F 0 "#FLG?" H 1350 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 1350 1223 50  0000 C CNN
+F 2 "" H 1350 1050 50  0001 C CNN
+F 3 "~" H 1350 1050 50  0001 C CNN
+	1    1350 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5BC2FEDE
+P 1350 1050
+F 0 "#PWR?" H 1350 900 50  0001 C CNN
+F 1 "VCC" H 1367 1223 50  0000 C CNN
+F 2 "" H 1350 1050 50  0001 C CNN
+F 3 "" H 1350 1050 50  0001 C CNN
+	1    1350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack4_Ground J?
+U 1 1 5BC2FF07
+P 1350 2000
+F 0 "J?" H 1316 2342 50  0000 C CNN
+F 1 "AudioJack4_Ground" H 1316 2251 50  0000 C CNN
+F 2 "" H 1350 2000 50  0001 C CNN
+F 3 "~" H 1350 2000 50  0001 C CNN
+	1    1350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack4_Ground J?
+U 1 1 5BC30075
+P 2750 2000
+F 0 "J?" H 2716 2342 50  0000 C CNN
+F 1 "AudioJack4_Ground" H 2716 2251 50  0000 C CNN
+F 2 "" H 2750 2000 50  0001 C CNN
+F 3 "~" H 2750 2000 50  0001 C CNN
+	1    2750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:TCA9555PWR U?
+U 1 1 5BC30627
+P 2250 3850
+F 0 "U?" V 2296 2709 50  0000 R CNN
+F 1 "TCA9555PWR" V 2205 2709 50  0000 R CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 3300 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 1750 4750 50  0001 C CNN
+	1    2250 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Interface_Expansion:TCA9555PWR U?
+U 1 1 5BC307E8
+P 2250 6100
+F 0 "U?" V 2296 4959 50  0000 R CNN
+F 1 "TCA9555PWR" V 2205 4959 50  0000 R CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 3300 5100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 1750 7000 50  0001 C CNN
+	1    2250 6100
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1550 2200 2    50   Input ~ 0
+3V3
+Text GLabel 2950 2200 2    50   Input ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 5BC31239
+P 1550 1900
+F 0 "#PWR?" H 1550 1650 50  0001 C CNN
+F 1 "GND" V 1555 1772 50  0000 R CNN
+F 2 "" H 1550 1900 50  0001 C CNN
+F 3 "" H 1550 1900 50  0001 C CNN
+	1    1550 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC31273
+P 2950 1900
+F 0 "#PWR?" H 2950 1650 50  0001 C CNN
+F 1 "GND" V 2955 1772 50  0000 R CNN
+F 2 "" H 2950 1900 50  0001 C CNN
+F 3 "" H 2950 1900 50  0001 C CNN
+	1    2950 1900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1550 2000 2    50   Input ~ 0
+SCL1
+Text GLabel 1550 2100 2    50   Input ~ 0
+SDA1
+Text GLabel 2950 2000 2    50   Input ~ 0
+SCL2
+Text GLabel 2950 2100 2    50   Input ~ 0
+SDA2
+$Comp
+L power:GND #PWR?
+U 1 1 5BC313E9
+P 3350 3850
+F 0 "#PWR?" H 3350 3600 50  0001 C CNN
+F 1 "GND" H 3355 3677 50  0000 C CNN
+F 2 "" H 3350 3850 50  0001 C CNN
+F 3 "" H 3350 3850 50  0001 C CNN
+	1    3350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC314A0
+P 3350 6100
+F 0 "#PWR?" H 3350 5850 50  0001 C CNN
+F 1 "GND" H 3355 5927 50  0000 C CNN
+F 2 "" H 3350 6100 50  0001 C CNN
+F 3 "" H 3350 6100 50  0001 C CNN
+	1    3350 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1150 3850 0    50   Input ~ 0
+3V3
+Text GLabel 1150 6100 0    50   Input ~ 0
+3V3
+$EndSCHEMATC
