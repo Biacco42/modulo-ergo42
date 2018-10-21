@@ -129,13 +129,13 @@ F 3 "" H 2200 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1200 2200 2    50   Input ~ 0
-SCL1
+SCL
 Text GLabel 1200 2300 2    50   Input ~ 0
-SDA1
+SDA
 Text GLabel 2200 2200 2    50   Input ~ 0
-SCL2
+SCL
 Text GLabel 2200 2300 2    50   Input ~ 0
-SDA2
+SDA
 $Comp
 L power:GND #PWR08
 U 1 1 5BC313E9
@@ -222,13 +222,13 @@ Wire Wire Line
 Wire Wire Line
 	3450 1450 3550 1450
 Text GLabel 1850 4900 3    50   Input ~ 0
-SCL1
+SCL
 Text GLabel 1750 4900 3    50   Input ~ 0
-SDA1
+SDA
 Text GLabel 1850 7200 3    50   Input ~ 0
-SCL2
+SCL
 Text GLabel 1750 7200 3    50   Input ~ 0
-SDA2
+SDA
 $Comp
 L power:GND #PWR06
 U 1 1 5BC3467A
@@ -1078,17 +1078,6 @@ Text GLabel 9350 4600 3    50   Input ~ 0
 R3C7
 Text GLabel 9350 5400 3    50   Input ~ 0
 R4C7
-$Comp
-L power:PWR_FLAG #FLG03
-U 1 1 5BC41E23
-P 2100 1050
-F 0 "#FLG03" H 2100 1125 50  0001 C CNN
-F 1 "PWR_FLAG" H 2100 1224 50  0000 C CNN
-F 2 "" H 2100 1050 50  0001 C CNN
-F 3 "~" H 2100 1050 50  0001 C CNN
-	1    2100 1050
-	1    0    0    -1  
-$EndComp
 Text GLabel 2100 1050 3    50   Input ~ 0
 3V3
 $Comp
@@ -1118,4 +1107,15 @@ Text GLabel 4200 2300 2    50   Input ~ 0
 INT
 Text GLabel 4200 2400 2    50   Input ~ 0
 3V3
+$Comp
+L power:VCC #PWR0101
+U 1 1 5BCCB118
+P 2100 1050
+F 0 "#PWR0101" H 2100 900 50  0001 C CNN
+F 1 "VCC" H 2117 1223 50  0000 C CNN
+F 2 "" H 2100 1050 50  0001 C CNN
+F 3 "" H 2100 1050 50  0001 C CNN
+	1    2100 1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
