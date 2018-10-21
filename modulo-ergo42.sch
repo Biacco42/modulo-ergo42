@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:modulo-ergo42-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -349,21 +350,21 @@ NoConn ~ 3050 5800
 NoConn ~ 3250 5800
 NoConn ~ 3350 5800
 NoConn ~ 3150 5800
-Text GLabel 1750 3500 1    50   Input ~ 0
-R1C1
-Text GLabel 2150 3500 1    50   Input ~ 0
-R1C2
-Text GLabel 1850 3500 1    50   Input ~ 0
-R2C1
-Text GLabel 1950 3500 1    50   Input ~ 0
-R3C1
 Text GLabel 2050 3500 1    50   Input ~ 0
-R4C1
-Text GLabel 2250 3500 1    50   Input ~ 0
-R2C2
-Text GLabel 2350 3500 1    50   Input ~ 0
-R3C2
+R1C1
 Text GLabel 2450 3500 1    50   Input ~ 0
+R1C2
+Text GLabel 1950 3500 1    50   Input ~ 0
+R2C1
+Text GLabel 1850 3500 1    50   Input ~ 0
+R3C1
+Text GLabel 1750 3500 1    50   Input ~ 0
+R4C1
+Text GLabel 2350 3500 1    50   Input ~ 0
+R2C2
+Text GLabel 2250 3500 1    50   Input ~ 0
+R3C2
+Text GLabel 2150 3500 1    50   Input ~ 0
 R4C2
 Text GLabel 2650 3500 1    50   Input ~ 0
 R1C3
@@ -381,21 +382,21 @@ Text GLabel 3250 3500 1    50   Input ~ 0
 R3C4
 Text GLabel 3350 3500 1    50   Input ~ 0
 R4C4
-Text GLabel 1750 5800 1    50   Input ~ 0
-R1C5
-Text GLabel 1850 5800 1    50   Input ~ 0
-R2C5
-Text GLabel 1950 5800 1    50   Input ~ 0
-R3C5
 Text GLabel 2050 5800 1    50   Input ~ 0
+R1C5
+Text GLabel 1950 5800 1    50   Input ~ 0
+R2C5
+Text GLabel 1850 5800 1    50   Input ~ 0
+R3C5
+Text GLabel 1750 5800 1    50   Input ~ 0
 R4C5
-Text GLabel 2150 5800 1    50   Input ~ 0
-R1C6
-Text GLabel 2250 5800 1    50   Input ~ 0
-R2C6
-Text GLabel 2350 5800 1    50   Input ~ 0
-R3C6
 Text GLabel 2450 5800 1    50   Input ~ 0
+R1C6
+Text GLabel 2350 5800 1    50   Input ~ 0
+R2C6
+Text GLabel 2250 5800 1    50   Input ~ 0
+R3C6
+Text GLabel 2150 5800 1    50   Input ~ 0
 R4C6
 Text GLabel 2650 5800 1    50   Input ~ 0
 R1C7
