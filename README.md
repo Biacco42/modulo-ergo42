@@ -28,6 +28,7 @@
 1. TRRS ジャックと Black Pill を Pendant の基板にはんだ付け
 1. ※ワークアラウンド Vcc と B6 / B7 / B10 / B11 を 4.7 kOhm 抵抗でプルアップ
 
+![work_around](https://raw.githubusercontent.com/Biacco42/modulo-ergo42/readme/image/IMG_20181106_010110.jpg)
 
 ## Ergo42 Modulo
 
@@ -36,9 +37,11 @@
 1. R1 / R2 / R3 に 10 kOhm 抵抗をはんだ付け
 1. DIP スイッチをはんだ付け
 1. TRRS ジャックをはんだ付け  
-底板の TRRS ジャックの溝がタイトなので、底板を合わせてみて位置合わせしてからハンダしてください
+底板の TRRS ジャックの溝がタイトなので、底板を合わせてみて位置合わせしてからハンダしてください  
+![](https://raw.githubusercontent.com/Biacco42/modulo-ergo42/readme/image/IMG_20181106_004302.jpg)
 1. TCA9555 をはんだ付け  
-マークがついている 1 番ピンが基板右下を向くようにする (TRRS ジャックを上として)
+マークがついている 1 番ピンが基板右下を向くようにする (TRRS ジャックを上として)  
+![](https://raw.githubusercontent.com/Biacco42/modulo-ergo42/readme/image/IMG_20181106_004333.jpg)
 1. Kailh MX Socket をはんだ付け
 1. マウントプレートにネジを通してセロハンテープでとめる
 1. マウントプレートを裏返して、溝が掘られていないアクリル片を **2 枚** 重ねてネジに通す  
