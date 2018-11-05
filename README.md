@@ -5,7 +5,7 @@
 ## Pendant (Black Pill の乗る開発ボード)
 
 - PJ-320d 互換の SMD TRRS **ジャック 2 個** [ex.](https://www.aliexpress.com/item/10Pcs-PJ-320-d-headphone-female-socket-Headphone-socket-Headphone-jack-port-3-1pin-left-three/32771954997.html?spm=a2g0s.9042311.0.0.3da24c4d0cRV8i)
-- Black Pill **1 個**　[ex.](https://www.aliexpress.com/item/5pcs-STM32F103C8T6-ARM-STM32-Minimum-System-Development-Board-Module-For-arduino/32653839788.html?spm=a2g0s.9042311.0.0.27424c4dzIl8m8)
+- Black Pill **1 個** [ex.](https://www.aliexpress.com/item/5pcs-STM32F103C8T6-ARM-STM32-Minimum-System-Development-Board-Module-For-arduino/32653839788.html?spm=a2g0s.9042311.0.0.27424c4dzIl8m8)
 - 4.7 kOhm リード付き抵抗 **4 個**
 
 ## Ergo42 Modulo (両手分)
@@ -50,3 +50,7 @@
 1. 溝付のアクリル片を、基板のパッドを避けるようにネジに通す
 1. ネジ穴がない溝付のアクリル片メイン基板に両面テープ等で固定する
 1. 底板をネジに通してナットでとめて完成
+
+# [WIP]ファームウエア
+
+詳しくは、[KbD Pre](https://biacco42.booth.pm/items/840614) を参照するか、[@Biacco42](https://twitter.com/Biacco42) までお問い合わせください。
