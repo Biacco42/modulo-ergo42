@@ -59,28 +59,6 @@ F 3 "" H 1650 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack4_Ground J1
-U 1 1 5BC2FF07
-P 1000 2200
-F 0 "J1" H 966 2542 50  0000 C CNN
-F 1 "AudioJack4_Ground" H 966 2451 50  0000 C CNN
-F 2 "library:TRRS_SMD_PJ320" H 1000 2200 50  0001 C CNN
-F 3 "~" H 1000 2200 50  0001 C CNN
-	1    1000 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack4_Ground J2
-U 1 1 5BC30075
-P 2000 2200
-F 0 "J2" H 1966 2542 50  0000 C CNN
-F 1 "AudioJack4_Ground" H 1966 2451 50  0000 C CNN
-F 2 "library:TRRS_SMD_PJ320" H 2000 2200 50  0001 C CNN
-F 3 "~" H 2000 2200 50  0001 C CNN
-	1    2000 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Interface_Expansion:TCA9555PWR U1
 U 1 1 5BC30627
 P 2550 4200
@@ -128,13 +106,13 @@ F 3 "" H 2200 2100 50  0001 C CNN
 	1    2200 2100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1200 2200 2    50   Input ~ 0
-SCL
 Text GLabel 1200 2300 2    50   Input ~ 0
-SDA
-Text GLabel 2200 2200 2    50   Input ~ 0
 SCL
+Text GLabel 1200 2200 2    50   Input ~ 0
+SDA
 Text GLabel 2200 2300 2    50   Input ~ 0
+SCL
+Text GLabel 2200 2200 2    50   Input ~ 0
 SDA
 $Comp
 L power:GND #PWR08
@@ -158,21 +136,10 @@ F 3 "" H 3650 6500 50  0001 C CNN
 	1    3650 6500
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 4200 0    50   Input ~ 0
+Text GLabel 1250 4200 0    50   Input ~ 0
 3V3
-Text GLabel 1450 6500 0    50   Input ~ 0
+Text GLabel 1250 6500 0    50   Input ~ 0
 3V3
-$Comp
-L Connector:AudioJack4_Ground J3
-U 1 1 5BC32F04
-P 3000 2200
-F 0 "J3" H 2966 2542 50  0000 C CNN
-F 1 "AudioJack4_Ground" H 2966 2451 50  0000 C CNN
-F 2 "library:TRRS_SMD_PJ320" H 3000 2200 50  0001 C CNN
-F 3 "~" H 3000 2200 50  0001 C CNN
-	1    3000 2200
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5BC33189
@@ -275,7 +242,7 @@ L Device:R R2
 U 1 1 5BC34D2C
 P 9600 1250
 F 0 "R2" H 9530 1296 50  0000 R CNN
-F 1 "10 kΩ" H 9530 1205 50  0000 R CNN
+F 1 "1 M" H 9530 1205 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9530 1250 50  0001 C CNN
 F 3 "~" H 9600 1250 50  0001 C CNN
 	1    9600 1250
@@ -330,7 +297,7 @@ L Device:R R3
 U 1 1 5BC35F1C
 P 10000 1250
 F 0 "R3" H 9930 1296 50  0000 R CNN
-F 1 "10 kΩ" H 9930 1205 50  0000 R CNN
+F 1 "1 M" H 9930 1205 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9930 1250 50  0001 C CNN
 F 3 "~" H 10000 1250 50  0001 C CNN
 	1    10000 1250
@@ -346,65 +313,61 @@ Wire Wire Line
 Wire Wire Line
 	9900 1450 9900 1600
 Connection ~ 9900 1600
-NoConn ~ 3050 5800
-NoConn ~ 3250 5800
-NoConn ~ 3350 5800
-NoConn ~ 3150 5800
-Text GLabel 2050 3500 1    50   Input ~ 0
-R1C1
-Text GLabel 2450 3500 1    50   Input ~ 0
-R1C2
-Text GLabel 1950 3500 1    50   Input ~ 0
-R2C1
-Text GLabel 1850 3500 1    50   Input ~ 0
-R3C1
 Text GLabel 1750 3500 1    50   Input ~ 0
-R4C1
-Text GLabel 2350 3500 1    50   Input ~ 0
-R2C2
-Text GLabel 2250 3500 1    50   Input ~ 0
-R3C2
-Text GLabel 2150 3500 1    50   Input ~ 0
-R4C2
-Text GLabel 2650 3500 1    50   Input ~ 0
-R1C3
-Text GLabel 2750 3500 1    50   Input ~ 0
-R2C3
-Text GLabel 2850 3500 1    50   Input ~ 0
-R3C3
-Text GLabel 2950 3500 1    50   Input ~ 0
-R4C3
-Text GLabel 3050 3500 1    50   Input ~ 0
-R1C4
-Text GLabel 3150 3500 1    50   Input ~ 0
-R2C4
+R1C1
+Text GLabel 1850 3500 1    50   Input ~ 0
+R1C2
 Text GLabel 3250 3500 1    50   Input ~ 0
-R3C4
-Text GLabel 3350 3500 1    50   Input ~ 0
-R4C4
-Text GLabel 2050 5800 1    50   Input ~ 0
-R1C5
-Text GLabel 1950 5800 1    50   Input ~ 0
-R2C5
-Text GLabel 1850 5800 1    50   Input ~ 0
-R3C5
+R2C1
 Text GLabel 1750 5800 1    50   Input ~ 0
+R3C1
+Text GLabel 3250 5800 1    50   Input ~ 0
+R4C1
+Text GLabel 3150 3500 1    50   Input ~ 0
+R2C2
+Text GLabel 1850 5800 1    50   Input ~ 0
+R3C2
+Text GLabel 3150 5800 1    50   Input ~ 0
+R4C2
+Text GLabel 1950 3500 1    50   Input ~ 0
+R1C3
+Text GLabel 3050 3500 1    50   Input ~ 0
+R2C3
+Text GLabel 1950 5800 1    50   Input ~ 0
+R3C3
+Text GLabel 3050 5800 1    50   Input ~ 0
+R4C3
+Text GLabel 2050 3500 1    50   Input ~ 0
+R1C4
+Text GLabel 2950 3500 1    50   Input ~ 0
+R2C4
+Text GLabel 2050 5800 1    50   Input ~ 0
+R3C4
+Text GLabel 2950 5800 1    50   Input ~ 0
+R4C4
+Text GLabel 2150 3500 1    50   Input ~ 0
+R1C5
+Text GLabel 2850 3500 1    50   Input ~ 0
+R2C5
+Text GLabel 2150 5800 1    50   Input ~ 0
+R3C5
+Text GLabel 2850 5800 1    50   Input ~ 0
 R4C5
-Text GLabel 2450 5800 1    50   Input ~ 0
+Text GLabel 2250 3500 1    50   Input ~ 0
 R1C6
-Text GLabel 2350 5800 1    50   Input ~ 0
+Text GLabel 2750 3500 1    50   Input ~ 0
 R2C6
 Text GLabel 2250 5800 1    50   Input ~ 0
 R3C6
-Text GLabel 2150 5800 1    50   Input ~ 0
-R4C6
-Text GLabel 2650 5800 1    50   Input ~ 0
-R1C7
 Text GLabel 2750 5800 1    50   Input ~ 0
+R4C6
+Text GLabel 2350 3500 1    50   Input ~ 0
+R1C7
+Text GLabel 2650 3500 1    50   Input ~ 0
 R2C7
-Text GLabel 2850 5800 1    50   Input ~ 0
+Text GLabel 2350 5800 1    50   Input ~ 0
 R3C7
-Text GLabel 2950 5800 1    50   Input ~ 0
+Text GLabel 2650 5800 1    50   Input ~ 0
 R4C7
 $Comp
 L Switch:SW_Push SW1
@@ -1081,17 +1044,6 @@ R4C7
 Text GLabel 2100 1050 3    50   Input ~ 0
 3V3
 $Comp
-L Connector:AudioJack4_Ground J4
-U 1 1 5BC43221
-P 4000 2200
-F 0 "J4" H 3966 2542 50  0000 C CNN
-F 1 "AudioJack4_Ground" H 3966 2451 50  0000 C CNN
-F 2 "library:TRRS_SMD_PJ320" H 4000 2200 50  0001 C CNN
-F 3 "~" H 4000 2200 50  0001 C CNN
-	1    4000 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR042
 U 1 1 5BC4348C
 P 4200 2100
@@ -1116,6 +1068,126 @@ F 1 "VCC" H 2117 1223 50  0000 C CNN
 F 2 "" H 2100 1050 50  0001 C CNN
 F 3 "" H 2100 1050 50  0001 C CNN
 	1    2100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack4 J1
+U 1 1 5C165A23
+P 1000 2200
+F 0 "J1" H 955 2525 50  0000 C CNN
+F 1 "AudioJack4" H 955 2434 50  0000 C CNN
+F 2 "library:TRRS_SMD_PJ320" H 1000 2200 50  0001 C CNN
+F 3 "~" H 1000 2200 50  0001 C CNN
+	1    1000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack4 J2
+U 1 1 5C165B24
+P 2000 2200
+F 0 "J2" H 1955 2525 50  0000 C CNN
+F 1 "AudioJack4" H 1955 2434 50  0000 C CNN
+F 2 "library:TRRS_SMD_PJ320" H 2000 2200 50  0001 C CNN
+F 3 "~" H 2000 2200 50  0001 C CNN
+	1    2000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack4 J3
+U 1 1 5C165BD8
+P 3000 2200
+F 0 "J3" H 2955 2525 50  0000 C CNN
+F 1 "AudioJack4" H 2955 2434 50  0000 C CNN
+F 2 "library:TRRS_SMD_PJ320" H 3000 2200 50  0001 C CNN
+F 3 "~" H 3000 2200 50  0001 C CNN
+	1    3000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack4 J4
+U 1 1 5C165C87
+P 4000 2200
+F 0 "J4" H 3955 2525 50  0000 C CNN
+F 1 "AudioJack4" H 3955 2434 50  0000 C CNN
+F 2 "library:TRRS_SMD_PJ320" H 4000 2200 50  0001 C CNN
+F 3 "~" H 4000 2200 50  0001 C CNN
+	1    4000 2200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2450 3500
+NoConn ~ 3350 3500
+NoConn ~ 3350 5800
+NoConn ~ 2450 5800
+Wire Wire Line
+	1250 4200 1450 4200
+Wire Wire Line
+	1450 6500 1250 6500
+$Comp
+L power:GND #PWR043
+U 1 1 5C16BF77
+P 1250 4400
+F 0 "#PWR043" H 1250 4150 50  0001 C CNN
+F 1 "GND" H 1255 4227 50  0000 C CNN
+F 2 "" H 1250 4400 50  0001 C CNN
+F 3 "" H 1250 4400 50  0001 C CNN
+	1    1250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5C16C42D
+P 1250 4300
+F 0 "C1" H 1342 4346 50  0000 L CNN
+F 1 "100 p" H 1342 4255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1250 4300 50  0001 C CNN
+F 3 "~" H 1250 4300 50  0001 C CNN
+	1    1250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR044
+U 1 1 5C16C87E
+P 1250 6700
+F 0 "#PWR044" H 1250 6450 50  0001 C CNN
+F 1 "GND" H 1255 6527 50  0000 C CNN
+F 2 "" H 1250 6700 50  0001 C CNN
+F 3 "" H 1250 6700 50  0001 C CNN
+	1    1250 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5C16C884
+P 1250 6600
+F 0 "C2" H 1342 6646 50  0000 L CNN
+F 1 "100 p" H 1342 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1250 6600 50  0001 C CNN
+F 3 "~" H 1250 6600 50  0001 C CNN
+	1    1250 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 2650 1050 1    50   Input ~ 0
+3V3
+$Comp
+L Device:C_Small C3
+U 1 1 5C16CE41
+P 2650 1150
+F 0 "C3" H 2742 1196 50  0000 L CNN
+F 1 "1 u" H 2742 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2650 1150 50  0001 C CNN
+F 3 "~" H 2650 1150 50  0001 C CNN
+	1    2650 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 5C16D074
+P 2650 1250
+F 0 "#PWR045" H 2650 1000 50  0001 C CNN
+F 1 "GND" H 2655 1077 50  0000 C CNN
+F 2 "" H 2650 1250 50  0001 C CNN
+F 3 "" H 2650 1250 50  0001 C CNN
+	1    2650 1250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
