@@ -16,6 +16,8 @@
 - m1.4 ナット **28 個** [ex.](https://item.rakuten.co.jp/nejiya/00n0800010014000005000_b10/)
 - PJ-320d 互換の SMD TRRS **ジャック 8 個** [ex.](https://www.aliexpress.com/item/10Pcs-PJ-320-d-headphone-female-socket-Headphone-socket-Headphone-jack-port-3-1pin-left-three/32771954997.html?spm=a2g0s.9042311.0.0.3da24c4d0cRV8i)
 - SMD 0603 1 MΩ 抵抗 **4 個**
+- SMD 0603 1 uF キャパシタ **4 個**
+- SMD 0603 0.1 uF キャパシタ **4 個**
 - DPST DIP スイッチ **2 個** [ex.](http://akizukidenshi.com/catalog/g/gP-08928/)
 - Kailh MX Socket **56 個** [ex.](https://yushakobo.jp/shop/a01ps/)
 - TCA9555 **4 個** [ex.](https://www.digikey.jp/product-detail/ja/texas-instruments/TCA9555PWR/296-24827-1-ND/2094665)
@@ -34,11 +36,12 @@
 
 1. __【注】R1 は実装不要です__
 1. R2 / R3 に 1 MΩ 抵抗をはんだ付け
+1. C1 / C2 に 0.1 uF を、C3 / C4 に 1 uF をはんだ付け
 1. DIP スイッチをはんだ付け (向き不問)
 1. TRRS ジャックをはんだ付け  
 ![](https://raw.githubusercontent.com/Biacco42/modulo-ergo42/readme/image/IMG_20181229_234329.jpg)
 1. TCA9555 をはんだ付け  
-マークがついている 1 番ピンが基板上の U1 / U2 シルクの方向を向くようにする  
+フラックスを基板に塗布してから、マークがついている 1 番ピンが基板上の U1 / U2 シルクの方向を向くように配置してはんだ付けする  
 ![](https://raw.githubusercontent.com/Biacco42/modulo-ergo42/readme/image/IMG_20181229_234413.jpg)
 1. Kailh MX Socket をはんだ付け
 1. マウントプレートにネジを通してセロハンテープでとめる
